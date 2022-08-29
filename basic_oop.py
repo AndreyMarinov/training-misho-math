@@ -26,12 +26,12 @@ class Woman(Man):
         '''Returning the gender for Female'''
         return f"I am {gender}"
 
-person=Man('Ayato', 'Haru', 21)
-print(person.print_first_and_second_name())
-print(person.print_age())
-print(person.print_gender_male())
+person_male=Man('Ayato', 'Haru', 21)
+print(person_male.print_first_and_second_name())
+print(person_male.print_age())
+print(person_male.print_gender_male())
 
-person=Woman('Alis', 'Vermili', 21)
-print(person.print_first_and_second_name())
-print(person.print_age())
-print(person.print_gender_female())
+person_female=Woman('Alis', 'Vermili', 21)
+print(person_female.print_first_and_second_name())
+print(person_female.print_age())
+print(person_female.print_gender_female())
