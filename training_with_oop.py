@@ -1,5 +1,4 @@
 '''Function that'''
-#pylint: disable=too-many-instance-attributes
 class Man:
     '''Defining my class as Man'''
     def __init__(self, age, first_name, last_name):
